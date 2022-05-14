@@ -6,6 +6,8 @@ public class ejercicio2 {
             aux = A[i];
             if (i - d >= 0)
                 Aiz[i - d] = aux;
+            else
+                Aiz[(Aiz.length) - Math.abs(i - d)] = aux;
         }
         return Aiz;
     }
