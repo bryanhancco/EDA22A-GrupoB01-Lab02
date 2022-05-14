@@ -1,3 +1,7 @@
 public class ejercicio3 {
-    //t
+    public void trianguloRecursivo(int base){
+        if(base == 1){
+            System.out.println("*\n");
+        }
+    }
 }
