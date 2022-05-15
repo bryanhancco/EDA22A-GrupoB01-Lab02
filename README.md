@@ -69,7 +69,7 @@
 List es una interface, mientras que ArrayList es una clase la cual 
 implementa la interface List.
 Entonces, ahora podemos responder:
-¿Por qué <code>List &ltAnimal&gt mascotas = new ArrayList&ltAnimal&gt()</code> nos daba error?
+¿Por qué <code>List &ltAnimal&gt mascotas = new List&ltAnimal&gt()</code> nos daba error?
 List al ser una interface no puede ser instanciada, a diferencia de
 la clase ArrayList, la cual si podemos crear objetos de ArrayList y
 trabajar con ellos.</pre>
