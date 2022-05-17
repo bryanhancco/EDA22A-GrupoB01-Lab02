@@ -66,6 +66,14 @@
         iterativamente los elementos de la matriz unidimensional y los agregaba a otra matriz vacía,
         lo que se cambió,es que la iteración iba desde el final del array hasta el principio, para
         así poder ver un array totalmente invertido. <br>
+      <pre>
+      ...
+       //se guardan los valores invertidos de la matriz a otra
+        for (int i = Ain.length - 1, j = 0; i >= 0; i--, j++) {
+            Ain[j] = A[i];
+        }
+      ...
+      </pre>
         [1,2,3,4,5] => [5,4,3,2,1]
     <li>Ejercicio 2</li>
         El ejercicio planteaba recorrer espacios a la izquierda el array para lo cual, se usó también
@@ -82,12 +90,12 @@
         el resto de triangulos.
     <pre><code>public void trianguloRecursivo(int base){
     ....
-     //t. actual =t.anterior + base
-    trianguloRecursivo(base -1);
+     //t.actual = t.anterior + base
+    trianguloRecursivo(base - 1);
     for (int i = 0; i < base; i++) 
-    System.out.print("*");
+        System.out.print("*");
     ....  
-} 
+    } 
     </code></pre>
     <li>Ejercicio 4</li>
         La primera parte nos pedía usar listas usando ciertos métodos que vienen por defecto en ellas.
