@@ -21,7 +21,6 @@
 <div align="center">
 <span style="font-weight:bold;">INFORME DE LABORATORIO</span><br />
 
-
 <table>
 <theader>
 <tr><th colspan="6">INFORMACIÓN BÁSICA</th></tr>
@@ -76,6 +75,11 @@
         y se restó a la posición final del arreglo. <br>
         [1,2,3,4,5] d=3 => [4,5,1,2,3]
     <li>Ejercicio 3</li>
+        Este ejercicio consitia en formar un triangulo rectangulo Recursivamente con "*" ,considerando 
+        como parametro unico la base del triangulo, la idea principal para resolver este problema fue 
+        que basicamente cualquier triangulo se puede formar a partir del triangulo anterior mas la base,
+        de esta manera este metodo al llamarse a si mismo llegaba al caso base * , y empezaba a formar 
+        el resto de triangulos.
     <li>Ejercicio 4</li>
         La primera parte nos pedía usar listas usando ciertos métodos que vienen por defecto en ellas.
         Se realizaron algunas pruebas imprimiendo ejemplos de ello para demostrar que sí se usan los métodos.
@@ -110,7 +114,6 @@ tipos de datos.  </pre>
 </tbody>
 </table>
 
-
 <table>
 <theader>
 <tr><th>RETROALIMENTACIÓN GENERAL
@@ -132,4 +135,3 @@ tipos de datos.  </pre>
     <li>https://docs.oracle.com/javase/7/docs/api/java/util/List.html</li>
     <li>https://docs.oracle.com/javase/tutorial/java/generics/types.html</li>
 </ul>
-
