@@ -61,7 +61,7 @@
 <tbody>
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
   <ul>
-    <li>Ejercicio 1: Invertir un matriz de enteros</li>
+    <li>Ejercicio 1: Invertir una matriz de enteros</li>
         El problema planteaba invertir una matriz, para eso usamos un bucle for, el cual recorría
         iterativamente los elementos de la matriz unidimensional y los agregaba a otra matriz vacía,
         lo que se cambió,es que la iteración iba desde el final del array hasta el principio, para
@@ -87,7 +87,7 @@
         if (i - d >= 0)                                
             Aiz[i - d] = aux;
         else
-        Aiz[(Aiz.length) - Math.abs(i - d)] = aux; 
+            Aiz[(Aiz.length) - Math.abs(i - d)] = aux; 
         ...</pre>
         [1,2,3,4,5] d=3 => [4,5,1,2,3]
     <li>Ejercicio 3: Triángulo recursivo</li>
