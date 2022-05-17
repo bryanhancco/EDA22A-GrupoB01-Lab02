@@ -60,7 +60,12 @@
 <tr><th>Solución y resultados</th></tr>
 </theader>
 <tbody>
-<tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS
+<tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
+    SOLUCIÓN EJERCICIO 1: El problema planteaba invertir una matriz, para 
+    eso usamos un bucle for, el cual recorría iterativamente los elementos de
+    la matriz unidimensional y los agregaba a otra matriz vacía, lo que se cambió,
+    es que la iteración iba desde el final del array hasta el principio, para así poder
+    ver un array totalmente invertido.
     <pre>                                                                                          </pre>
     </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTIONARIO<br>
