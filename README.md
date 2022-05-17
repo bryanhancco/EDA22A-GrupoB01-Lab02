@@ -18,7 +18,7 @@
 </table>
 </div>
 
-<div align="center">
+<div>
 <span style="font-weight:bold;">INFORME DE LABORATORIO</span><br />
 
 <table>
