@@ -36,10 +36,10 @@
 </tr>
 <tr><td colspan="3">INTEGRANTE(s):
 <ul>
-<li>Carrillo Daza Barbara - bcarrillo@unsa.edu.pe</li>
-<li>Hancco Condori Bryan - bhanccoco@unsa.edu.pe</li>
+<li>Cárdenas Martines Franco Luchiano - fcardenasm@unsa.edu.pe</li>
+<li>Carrillo Daza Barbara Rubi - bcarrillo@unsa.edu.pe</li>
 <li>Diaz Portillo Carlo Rodrigo - cdiazpor@unsa.edu.pe</li>
-<li>Cárdenas Martines Franco - fcardenasm@unsa.edu.pe</li>
+<li>Hancco Condori Bryan Orlando - bhanccoco@unsa.edu.pe</li>
 <li>Mamani Cañari Gabriel Anthony - gmamanican@unsa.edu.pe</li>
 </ul>
 </td>
