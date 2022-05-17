@@ -72,15 +72,23 @@
         for (int i = Ain.length - 1, j = 0; i >= 0; i--, j++) {
             Ain[j] = A[i];
         }
-      ...
-      </pre>
+      ...      </pre>
         [1,2,3,4,5] => [5,4,3,2,1]
     <li>Ejercicio 2</li>
         El ejercicio planteaba recorrer espacios a la izquierda el array para lo cual, se usó también
         una iteración pero con condiciones. Si la posición del número menos el número de espacios a 
         recorrer era mayor igual a 0, no habìa problema y tomaba la nueva posición pero si era un 
         número negativo, significaba que iría al fondo del array, por eso se usó el valor absoluto 
-        y se restó a la posición final del arreglo. <br>
+        y se restó a la posición final del arreglo. <br>     
+        <pre>
+        ...
+        //se trasladan los valores, cumpliendose cualquiera de los casos.
+        //aux representa a una variable que guarda un valor de la matriz
+        if (i - d >= 0)                                
+            Aiz[i - d] = aux;
+        else
+        Aiz[(Aiz.length) - Math.abs(i - d)] = aux; 
+        ...</pre>
         [1,2,3,4,5] d=3 => [4,5,1,2,3]
     <li>Ejercicio 3</li>
         Este ejercicio consitia en formar un triangulo rectangulo Recursivamente con "*" ,considerando 
