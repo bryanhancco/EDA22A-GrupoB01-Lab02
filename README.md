@@ -80,6 +80,15 @@
         que basicamente cualquier triangulo se puede formar a partir del triangulo anterior mas la base,
         de esta manera este metodo al llamarse a si mismo llegaba al caso base * , y empezaba a formar 
         el resto de triangulos.
+    <pre><code>public void trianguloRecursivo(int base){
+    ....
+     //t. actual =t.anterior + base
+    trianguloRecursivo(base -1);
+    for (int i = 0; i < base; i++) 
+    System.out.print("*");
+    ....  
+} 
+    </code></pre>
     <li>Ejercicio 4</li>
         La primera parte nos pedía usar listas usando ciertos métodos que vienen por defecto en ellas.
         Se realizaron algunas pruebas imprimiendo ejemplos de ello para demostrar que sí se usan los métodos.
