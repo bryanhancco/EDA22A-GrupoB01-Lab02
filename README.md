@@ -61,7 +61,7 @@
 <tbody>
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
   <ul>
-    <li>Ejercicio 1</li>
+    <li>Ejercicio 1: Invertir un matriz de enteros</li>
         El problema planteaba invertir una matriz, para eso usamos un bucle for, el cual recorría
         iterativamente los elementos de la matriz unidimensional y los agregaba a otra matriz vacía,
         lo que se cambió,es que la iteración iba desde el final del array hasta el principio, para
@@ -74,7 +74,7 @@
         }
       ...      </pre>
         [1,2,3,4,5] => [5,4,3,2,1]
-    <li>Ejercicio 2</li>
+    <li>Ejercicio 2: Rotación a la Izquierda</li>
         El ejercicio planteaba recorrer espacios a la izquierda el array para lo cual, se usó también
         una iteración pero con condiciones. Si la posición del número menos el número de espacios a 
         recorrer era mayor igual a 0, no habìa problema y tomaba la nueva posición pero si era un 
@@ -90,22 +90,22 @@
         Aiz[(Aiz.length) - Math.abs(i - d)] = aux; 
         ...</pre>
         [1,2,3,4,5] d=3 => [4,5,1,2,3]
-    <li>Ejercicio 3</li>
+    <li>Ejercicio 3: Triángulo recursivo</li>
         Este ejercicio consitia en formar un triangulo rectangulo Recursivamente con "*" ,considerando 
         como parametro unico la base del triangulo, la idea principal para resolver este problema fue 
         que basicamente cualquier triangulo se puede formar a partir del triangulo anterior mas la base,
         de esta manera este metodo al llamarse a si mismo llegaba al caso base * , y empezaba a formar 
         el resto de triangulos.
-    <pre><code>public void trianguloRecursivo(int base){
-    ....
-     //t.actual = t.anterior + base
-    trianguloRecursivo(base - 1);
-    for (int i = 0; i < base; i++) 
-        System.out.print("*");
-    ....  
-    } 
-    </code></pre>
-    <li>Ejercicio 4</li>
+        <pre><code>public void trianguloRecursivo(int base){
+        ....
+         //t.actual = t.anterior + base
+        trianguloRecursivo(base - 1);
+        for (int i = 0; i < base; i++) 
+            System.out.print("*");
+        ....  
+        } 
+        </code></pre>
+    <li>Ejercicio 4: Lista</li>
         La primera parte nos pedía usar listas usando ciertos métodos que vienen por defecto en ellas.
         Se realizaron algunas pruebas imprimiendo ejemplos de ello para demostrar que sí se usan los métodos.
         La segunda parte ejercicio nos pedía crear una clase Node que tenga ciertas caracteristicas. La 
