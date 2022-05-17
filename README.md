@@ -65,7 +65,14 @@
     eso usamos un bucle for, el cual recorría iterativamente los elementos de
     la matriz unidimensional y los agregaba a otra matriz vacía, lo que se cambió,
     es que la iteración iba desde el final del array hasta el principio, para así poder
-    ver un array totalmente invertido.
+    ver un array totalmente invertido.<br>
+    [1,2,3,4,5] => [5,4,3,2,1]<br>
+    SOLUCIÓN EJERCICIO 2: El ejercicio planteaba recorrer espacios a la izquierda el array,
+    para lo cual, se usó también una iteración pero con condiciones. Si la posición del número
+    menos el número de espacios a recorrer era mayor igual a 0, no habìa problema y tomaba la nueva
+    posición pero si era un número negativo, significaba que iría al fondo del array, por eso se usó 
+    el valor absoluto y se restó a la posición final del arreglo.<br>
+    [1,2,3,4,5] d=3 => [4,5,1,2,3]<br>
     <pre>                                                                                          </pre>
     </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTIONARIO<br>
