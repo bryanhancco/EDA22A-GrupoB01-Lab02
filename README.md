@@ -95,8 +95,10 @@ Las oportunidades que ofrecen son múltiples, pues nos permiten desarrollar cód
 (clases, interfaces, métodos, etc), además de la aplicación de algoritmos que abarcan diferentes
 tipos de datos.  </pre>
     </td></tr>
-<tr><td>III. CONCLUSIONES
-    <pre>                                                                                          </pre>
+<tr><td>III. CONCLUSIONES<br>
+    <li>La interface List nos da la posibilidad de tener un pleno control de los elementos que son insertados a una lista de una clase que implementa la interface list. Muy útil al momento de trabajar con estructuras de datos como podrían ser los arboles.</li>
+<li>Los Generics en java nos resultan de gran ayuda a la hora de reutilizar, entender y operar en el código, gracias a los múltiples tipos de parametros que podemos ingresar.</li>
+<li>Entendemos la recursión como un proceso en el cual una función se llama a sí misma y se vuelve a ejecutar, terminando la recursión cuando nos encontremos con el caso base.</li>
     </td></tr>
 </tbody>
 </table>
